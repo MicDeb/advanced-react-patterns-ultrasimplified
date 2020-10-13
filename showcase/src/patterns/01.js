@@ -12,7 +12,7 @@ const initialState = {
 
 const withClapAnimation = WrappedComponent => {
   class WithClapAnimation extends Component {
-    animationTimeline = new mojs.Timeline()
+    animationTimeline = new mojs.Timeline();
     state = {
       animationTimeline: this.animationTimeline
     }

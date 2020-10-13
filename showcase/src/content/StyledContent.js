@@ -119,7 +119,7 @@ export const DisplayBox = styled.div`
   width: 100%;
   min-height: 360px;
   max-height: 360px;
-  overflow-y: scroll;
+  // overflow-y: auto;
   padding: ${() => `${SIDEBAR_LEFT_PADDING}vw`};
   margin: ${({ m }) => m};
   border-radius: 16px;
